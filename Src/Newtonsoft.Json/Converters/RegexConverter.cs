@@ -25,13 +25,13 @@
 
 using System;
 using System.Text.RegularExpressions;
-using Newtonsoft.Json.Bson;
+using LLlibs.Newtonsoft.Json.Bson;
 using System.Globalization;
 using System.Runtime.CompilerServices;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Utilities;
+using LLlibs.Newtonsoft.Json.Serialization;
+using LLlibs.Newtonsoft.Json.Utilities;
 
-namespace Newtonsoft.Json.Converters
+namespace LLlibs.Newtonsoft.Json.Converters
 {
     /// <summary>
     /// Converts a <see cref="Regex"/> to and from JSON and BSON.

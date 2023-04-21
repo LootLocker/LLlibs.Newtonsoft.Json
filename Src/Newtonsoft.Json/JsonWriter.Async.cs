@@ -32,9 +32,9 @@ using System.Threading;
 using System.Numerics;
 #endif
 using System.Threading.Tasks;
-using Newtonsoft.Json.Utilities;
+using LLlibs.Newtonsoft.Json.Utilities;
 
-namespace Newtonsoft.Json
+namespace LLlibs.Newtonsoft.Json
 {
     public abstract partial class JsonWriter
 #if HAVE_ASYNC_DISPOSABLE

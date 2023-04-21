@@ -10,7 +10,7 @@
     <VersionSuffix>beta2</VersionSuffix>
     <Authors>James Newton-King</Authors>
     <Company>Newtonsoft</Company>
-    <Product>Json.NET</Product>
+    <Product>LLlibs.Json.NET</Product>
     <Description>Json.NET is a popular high-performance JSON framework for .NET</Description>
     <Copyright>Copyright © James Newton-King 2008</Copyright>
     <Summary>Json.NET is a popular high-performance JSON framework for .NET</Summary>
@@ -24,8 +24,8 @@
     <PackageProjectUrl>https://www.newtonsoft.com/json</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PublishRepositoryUrl>true</PublishRepositoryUrl> 
-    <RootNamespace>Newtonsoft.Json</RootNamespace>
-    <AssemblyName>Newtonsoft.Json</AssemblyName>
+    <RootNamespace>LLlibs.Newtonsoft.Json</RootNamespace>
+    <AssemblyName>LLlibs.Newtonsoft.Json</AssemblyName>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <Nullable>enable</Nullable>
     <MinClientVersion>2.12</MinClientVersion>
@@ -40,6 +40,7 @@
     Disable that warning since local builds do not strong-name sign the assembly, causing a mistmatch when comparing
     the previously shipped assemblies and current.-->
     <NoWarn Condition="'$(SignAssembly)' != 'true'">$(NoWarn);CP0003</NoWarn>
+    <TargetFrameworks>net45;net40;netstandard2.0</TargetFrameworks>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="**\*.orig" />
