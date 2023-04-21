@@ -30,15 +30,15 @@ using System.Diagnostics;
 using System.Globalization;
 using System.IO;
 using System.Runtime.Serialization.Formatters;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Utilities;
+using LLlibs.Newtonsoft.Json.Converters;
+using LLlibs.Newtonsoft.Json.Serialization;
+using LLlibs.Newtonsoft.Json.Utilities;
 using System.Runtime.Serialization;
-using ErrorEventArgs = Newtonsoft.Json.Serialization.ErrorEventArgs;
+using ErrorEventArgs = LLlibs.Newtonsoft.Json.Serialization.ErrorEventArgs;
 using System.Runtime.CompilerServices;
 using System.Diagnostics.CodeAnalysis;
 
-namespace Newtonsoft.Json
+namespace LLlibs.Newtonsoft.Json
 {
     /// <summary>
     /// Serializes and deserializes objects into and from the JSON format.

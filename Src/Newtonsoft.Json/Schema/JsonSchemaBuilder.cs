@@ -25,19 +25,19 @@
 
 using System;
 using System.Collections.Generic;
-using Newtonsoft.Json.Serialization;
+using LLlibs.Newtonsoft.Json.Serialization;
 #if !HAVE_LINQ
-using Newtonsoft.Json.Utilities.LinqBridge;
+using LLlibs.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
 using System.Globalization;
-using Newtonsoft.Json.Utilities;
-using Newtonsoft.Json.Linq;
+using LLlibs.Newtonsoft.Json.Utilities;
+using LLlibs.Newtonsoft.Json.Linq;
 
 #nullable disable
 
-namespace Newtonsoft.Json.Schema
+namespace LLlibs.Newtonsoft.Json.Schema
 {
     [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
     internal class JsonSchemaBuilder

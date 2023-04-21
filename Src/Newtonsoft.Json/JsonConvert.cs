@@ -29,11 +29,11 @@ using System.Globalization;
 #if HAVE_BIG_INTEGER
 using System.Numerics;
 #endif
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Utilities;
+using LLlibs.Newtonsoft.Json.Linq;
+using LLlibs.Newtonsoft.Json.Utilities;
 using System.Xml;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Serialization;
+using LLlibs.Newtonsoft.Json.Converters;
+using LLlibs.Newtonsoft.Json.Serialization;
 using System.Text;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -42,13 +42,13 @@ using System.Diagnostics.CodeAnalysis;
 using System.Xml.Linq;
 #endif
 
-namespace Newtonsoft.Json
+namespace LLlibs.Newtonsoft.Json
 {
     /// <summary>
     /// Provides methods for converting between .NET types and JSON types.
     /// </summary>
     /// <example>
-    ///   <code lang="cs" source="..\Src\Newtonsoft.Json.Tests\Documentation\SerializationTests.cs" region="SerializeObject" title="Serializing and Deserializing JSON with JsonConvert" />
+    ///   <code lang="cs" source="..\Src\LLlibs.Newtonsoft.Json.Tests\Documentation\SerializationTests.cs" region="SerializeObject" title="Serializing and Deserializing JSON with JsonConvert" />
     /// </example>
     public static class JsonConvert
     {

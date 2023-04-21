@@ -23,7 +23,7 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-namespace Newtonsoft.Json.Linq
+namespace LLlibs.Newtonsoft.Json.Linq
 {
     /// <summary>
     /// Specifies how JSON arrays are merged together.

@@ -23,9 +23,9 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-using Newtonsoft.Json.Utilities;
+using LLlibs.Newtonsoft.Json.Utilities;
 
-namespace Newtonsoft.Json.Serialization
+namespace LLlibs.Newtonsoft.Json.Serialization
 {
     /// <summary>
     /// A kebab case naming strategy.

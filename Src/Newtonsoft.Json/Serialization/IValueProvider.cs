@@ -23,7 +23,7 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-namespace Newtonsoft.Json.Serialization
+namespace LLlibs.Newtonsoft.Json.Serialization
 {
     /// <summary>
     /// Provides methods to get and set values.

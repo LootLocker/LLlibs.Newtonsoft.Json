@@ -26,13 +26,13 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Utilities;
+using LLlibs.Newtonsoft.Json.Linq;
+using LLlibs.Newtonsoft.Json.Utilities;
 using System.Globalization;
 
 #nullable disable
 
-namespace Newtonsoft.Json.Schema
+namespace LLlibs.Newtonsoft.Json.Schema
 {
     /// <summary>
     /// <para>
